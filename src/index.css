@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 0.65fr 2fr 0.65fr;
+    grid-template-rows: 0.5fr 2fr 1.25fr 1.25fr 1.5fr 1fr;
+    grid-auto-rows: auto;
+}
+.card{
+    /* background-color: rgb(255, 255, 255); */
+}
+.span-2{
+    grid-row: span 2;
+}
+
+
+.search{
+    max-height: 50px;
+}

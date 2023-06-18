@@ -1,7 +1,47 @@
-img {
-    display: inline;
+.menuItem{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 50px;
+    color: rgb(204, 202, 211);
+    /* margin-left: 50px; */
+    /* padding: 20px; */
 }
 
-p {
-    display: inline;
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    grid-row: 1 / span 6;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.menu{
+    width: 30px;
+    margin: 10px;
+    margin-bottom: 0;
+    margin-left: 200px;
+
+}
+
+.logo{
+    width: 90px;
+    margin: 10px 40px;
+}
+.menuItem img{
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+.p{
+    margin: 10px 50px;
+    color: rgb(204, 202, 211);
+}
+
+.menuItem:hover{
+    background-color: rgb(21, 17, 30);
+    color: rgb(237, 237, 238);
 }
